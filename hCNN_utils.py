@@ -1,15 +1,21 @@
 '''
 "Multiscale Hierarchical Convolutional Networks"
 J.-H. Jacobsen, E. Oyallon, S. Mallat, A.W.M. Smeulders
-arxiv.org/
+https://arxiv.org/abs/1703.04140
 
 Code by J.-H. Jacobsen in collaboration with E. Oyallon
 Informatics Institute, University of Amsterdam & Data Team, ENS
 '''
 
+import keras
 import keras.backend as K
 from keras.callbacks import Callback
-import yaml
+from keras.layers import Input, merge, Activation, Dropout, Dense, Reshape, Lambda
+from keras.layers.convolutional import Convolution2D, Convolution3D
+from keras.layers.pooling import AveragePooling2D, GlobalAveragePooling2D
+from keras.layers.normalization import BatchNormalization
+from keras.regularizers import l2
+import tensorflow as tf
 
 ########
 ## Various utility functions

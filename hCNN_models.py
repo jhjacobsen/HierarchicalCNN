@@ -1,7 +1,7 @@
 '''
 "Multiscale Hierarchical Convolutional Networks"
 J.-H. Jacobsen, E. Oyallon, S. Mallat, A.W.M. Smeulders
-arxiv.org/
+https://arxiv.org/abs/1703.04140
 
 Code by J.-H. Jacobsen in collaboration with E. Oyallon
 Informatics Institute, University of Amsterdam & Data Team, ENS
@@ -52,7 +52,7 @@ def hCNN_cifar10(v_j, v_1, v_2, v_J=10, l2_reg=3e-4):
     x = 32
     inputs = Input((x, x, 3))
 
-    y = first_block(inputs, n_out, 3, v_1, v_2, l2_reg)
+    y = first_block(inputs, v_j, 3, v_1, v_2, l2_reg)
     y = block(y, v_j, 3, v_1, v_2, l2_reg, subsample=True)
     y = block(y, v_j, 3, v_1, v_2, l2_reg, subsample=False)
     y = block(y, v_j, 3, v_1, v_2, l2_reg, subsample=True)
