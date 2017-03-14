@@ -5,7 +5,7 @@ Multiscale Hierarchical Convolutional Networks (hCNNs) are highly structured CNN
 Reference: [J.-H. Jacobsen](https://jhjacobsen.github.io/), [E. Oyallon](http://www.di.ens.fr/~oyallon/), [S. Mallat](http://www.cmap.polytechnique.fr/~mallat/), [A.W.M. Smeulders](https://staff.fnwi.uva.nl/a.w.m.smeulders/); [Multiscale Hierarchical Convolutional Networks](https://arxiv.org/abs/1703.04140).   
 *Under submission, 2017*
 
-This repository is a prelimenary release accompanying our arxiv submission. It will be updated to incorporate examples, compatibility with Tensorflow 1.0 / Keras 2.0 and more results soon.
+This repository is a preliminary release accompanying our arxiv submission. It will be updated to incorporate examples, compatibility with Tensorflow 1.0 / Keras 2.0 and more results soon.
 
 #### Implemented in Tensorflow & Keras
 
