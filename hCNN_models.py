@@ -22,8 +22,6 @@ from keras.preprocessing.image import ImageDataGenerator
 
 from hCNN_utils import hconv2d, hconv3d, hconv4d, reduce_dim_mean, reduce_mean
 
-from rme.datasets import cifar10
-
 import os
 import numpy as np
 
