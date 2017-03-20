@@ -13,11 +13,10 @@ Tested with: cudnn v5.1; cuda 8.0; Tensorflow 0.12; Keras 1.2.2
 
 #### Cite
 ```bibtex
-@article{jacobsen_2017_hcnn,
+@article{jacobsen2017multiscale,
   title={Multiscale Hierarchical Convolutional Networks},
-  author={Jacobsen, Jörn-Henrik and Oyallon, Edouard and Mallat, Stéphane and Smeulders, Arnold W. M.},
+  author={Jacobsen, J{\"o}rn-Henrik and Oyallon, Edouard and Mallat, St{\'e}phane and Smeulders, Arnold WM},
   journal={arXiv preprint arXiv:1703.04140},
-  month={march};
   year={2017}
 }
 ```
