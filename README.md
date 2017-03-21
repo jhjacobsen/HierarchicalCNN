@@ -1,4 +1,4 @@
-##Multiscale Hierarchical Convolutional Networks
+## Multiscale Hierarchical Convolutional Networks
 
 Multiscale Hierarchical Convolutional Networks (hCNNs) are highly structured CNNs that formulate each layer as a multi-dimensional convolution. hCNNs provide a framework that allows to study and understand mathematical and semantic properties of deep convolutional networks.
 
